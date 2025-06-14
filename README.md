@@ -44,7 +44,7 @@ Since this card has two Mini SAS ports, it supports up to 8 disks in total.
 
 In my case, I only installed 2 SAS disks, so a single Mini SAS cable is enough.  
 
-⚠ **Important tip:**  
+⚠️ **Important tip:**  
 When choosing cables, make sure the connector heads will fit your case.  
 These headers can be quite tall, and in many compact cases, clearance may be an issue.  
 I chose cables with Molex power connectors because the SATA-powered versions were too tall to fit comfortably in my chassis.
@@ -64,6 +64,6 @@ There are two common modes:
   The HBA simply passes through the physical disks directly to the OS.  
   This allows software like TrueNAS / ZFS to fully manage the disks, monitor SMART data, and create its own storage pools (e.g. ZFS pools).  
 
-⚠ **Key point:**  
+💡 **Key point:**  
 Only in IT mode can the disks (including SAS enterprise drives) be connected to your system in a way that software like TrueNAS can use them properly.  
 Without IT mode, the HBA will try to manage the disks as hardware RAID, which is not compatible with ZFS best practices and reduces flexibility.

@@ -67,3 +67,31 @@ There are two common modes:
 💡 **Key point:**  
 Only in IT mode can the disks (including SAS enterprise drives) be connected to your system in a way that software like TrueNAS can use them properly.  
 Without IT mode, the HBA will try to manage the disks as hardware RAID, which is not compatible with ZFS best practices and reduces flexibility.
+
+## Advantages of this Solution
+
+✅ **Low cost** — By using second-hand SAS enterprise drives and a budget-friendly LSI HBA, you can build a high-capacity NAS at a fraction of the cost of commercial solutions.
+
+✅ **High scalability** — The LSI 9240-8i HBA (in IT mode) supports up to 8 disks, and more with expanders. This gives plenty of room for future storage upgrades.
+
+✅ **ZFS / TrueNAS compatibility** — IT mode ensures that disks are passed directly to TrueNAS, allowing full ZFS control, SMART monitoring, and advanced storage features like snapshots and scrubbing.
+
+✅ **Reuse of old hardware** — This setup gives new life to spare PCs and affordable enterprise components.
+
+✅ **Flexibility** — You can easily swap disks, move pools between systems, or change configurations without being tied to proprietary hardware.
+
+⚡ This is a practical and affordable solution for home NAS enthusiasts looking to build powerful storage using enterprise hardware.
+
+## Final Notes
+
+Finally, we have completed the hardware part. Now you can install any NAS system you want — for example, I chose the **TrueNAS** system.
+
+⚡ **Why TrueNAS?**
+- It is free and open source.
+- It provides advanced features like ZFS, snapshots, scrubbing, and SMART monitoring out of the box.
+- The web interface is user-friendly and powerful.
+- It supports a wide range of hardware and is well-documented by the community.
+![TrueNAS dashboard](./images/dashboard.png)
+
+
+

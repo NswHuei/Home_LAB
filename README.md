@@ -20,4 +20,13 @@ It's aimed at enthusiasts who want to repurpose cheap SAS disks and achieve maxi
 - ✅ **TrueNAS / ZFS friendly:** No hardware RAID interference; full control at the OS level.
 - ✅ **Flexible upgrade path:** Add more disks or switch hardware easily.
 
+## Example Build Overview
+
+![Case overview](./images/case_overview.jpg)
+
+![HDD location](./images/hhd_location.jpg)
+
+If you have a spare old PC and some SAS enterprise drives and are wondering how to integrate them into your NAS system, this is one sample solution for you.
+
+First, make sure your case has at least one fan mount to provide cooling for your drives. In this build, I installed 2 SAS disks in the mounting frame, along with a fan to provide airflow over the drives. There is also enough space in the case for proper air intake to keep temperatures low.
 

@@ -27,8 +27,14 @@ This iterative process demonstrates the ability to adapt technical solutions to 
 - **Objective:** Deploy, configure, and manage a Wazuh SIEM instance on a VM to centralize log collection and security monitoring for the entire lab.
 - **Current Status:** Planning phase. The immediate goal is to create a Minimum Viable Product (MVP) with the Wazuh server installed and collecting logs from at least one source.
 
-## 🛠️ Tech Stack
-- **Storage:** UGREEN NAS
-- **Virtualization:** [vmware workstation]
-- **SIEM:** Wazuh
-- **Initial Hardware Research:** TrueNAS SCALE, SAS Drives
+## 🛠️ Tech Stack & Project Evolution
+
+- **Infrastructure V1 (Initial Research):**
+  - **NAS OS:** TrueNAS SCALE
+  - **Hardware:** Custom PC Build with enterprise SAS Drives & LSI HBA Card in IT Mode.
+  - ***Note:*** *The detailed build process for this version is documented as a reference in the [`/hardware-setup`](/hardware-setup) folder.*
+
+- **Infrastructure V2 (Current Production):**
+  - **Storage:** UGREEN NAS (Commercial Appliance)
+  - **Virtualization:** VMware Workstation
+  - **SIEM:** Wazuh

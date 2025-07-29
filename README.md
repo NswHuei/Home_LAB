@@ -16,7 +16,7 @@ This iterative process demonstrates the ability to adapt technical solutions to 
 ## 🗺️ Project Roadmap & Status
 
 ### Phase 1: Hardware & NAS Setup (✅ Completed)
-- **Folder:** [`/01-Hardware-Setup`](/01-Hardware-Setup)
+- **Folder:** [`/Hardware-Setup`](/Hardware-Setup)
 - **Objective:** Build a cost-effective Network Attached Storage (NAS) server using enterprise-grade hardware.
 - **Key Achievements:**
   - Successfully integrated SAS drives in a standard home-use PC build.

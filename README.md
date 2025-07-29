@@ -15,10 +15,12 @@ This iterative process demonstrates the ability to adapt technical solutions to 
 
 ## 🗺️ Project Roadmap & Status
 
-### Part 1: Network Attached Storage (✅ Completed)
-- **Folder:** [`/nas-ugreen-setup`](/nas-ugreen-setup)
-- **Objective:** Deploy and configure the UGREEN NAS for centralized and reliable data storage.
-- **Status:** The NAS is fully operational.
+### Phase 1: Hardware & NAS Setup (✅ Completed)
+- **Folder:** [`/01-Hardware-Setup`](/01-Hardware-Setup)
+- **Objective:** Build a cost-effective Network Attached Storage (NAS) server using enterprise-grade hardware.
+- **Key Achievements:**
+  - Successfully integrated SAS drives in a standard home-use PC build.
+  - Deployed and configured **TrueNAS SCALE** for advanced ZFS storage management.
 
 ### Part 2: SIEM Deployment (⏳ In Progress - MVP Target)
 - **Folder:** [`/siem-wazuh-vm`](/siem-wazuh-vm)
